@@ -1,0 +1,380 @@
+/* 
+    Large screen styles
+*/
+@media (max-width: 1440px) {
+    :root{
+        --font-72: 60px;
+        --font-61: 50px;
+        --font-58: 48px;
+        --font-48: 40px;
+        --font-44: 36px;
+        --font-38: 32px;
+        --font-31: 26px;
+        --font-27: 24px;
+        --font-25: 22px;
+        --font-22: 20px;
+        --font-20: 18px;
+    }
+    .container-top{
+        margin: 0 100px 0 100px;
+    }
+    .container-about{
+        margin: 0 86px 0 64px;
+    }
+    .container-story{
+        margin: 0 50px 0 50px;
+    }
+    
+    .container-footer{
+        margin: 0 100px 0 100px;
+    }
+
+    header .carousel .carousel-content h3 {
+        margin-top: 30px;
+    }
+
+    .navbar-brand img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .about-us .about-us-right :nth-child(1) {
+        width: 405px;
+        height: 440px;
+    }
+
+    .about-us .about-us-right :nth-child(2) {
+        width: 283.29px;
+        height: 283.29px;
+    }
+
+    .about-us .about-us-right :nth-child(3) {
+        width: 190.5px;
+        height: 178.5px;
+    }
+
+    .about-us .about-us-right :nth-child(4){
+        width: 290.5px;
+        height: 323px;
+    }
+
+    .our-story .our-story-right :nth-child(1) {
+        width: 467px;
+        height: 389px;
+    }
+
+    .our-story .our-story-right :nth-child(2) {
+        width: 277px;
+        height: 237px;
+    }
+
+    .our-story .our-story-right :nth-child(3) {
+        width: 277px;
+        height: 237px;
+    }
+
+    .our-menu {
+        margin-top: 100px;
+    }
+
+    .w-75{
+        width: 85% !important;
+    }
+
+    .events {
+        margin: 77px 0px 150px;
+        text-align: center;
+    }
+
+    .events .row .col-4 {
+        margin-top: 75px;
+    }
+
+    footer.footer {
+        padding-bottom: 20px;
+        padding-top: 80px;
+    }
+
+    footer.footer .subscribe {
+        width: 95%;
+    }
+}
+
+@media (max-width: 1200px) {
+    :root{
+        --font-72: 55px;
+        --font-61: 45px;
+        --font-58: 43px;
+        --font-48: 35px;
+        --font-44: 31px;
+        --font-38: 27px;
+        --font-31: 22px;
+        --font-27: 20px;
+        --font-25: 18px;
+        --font-22: 16px;
+        --font-20: 14px;
+    }
+
+    .container-top{
+        margin: 0 20px 0 20px;
+    }
+    .container-about{
+        margin: 0 30px 0 30px;
+    }
+    .container-story{
+        margin: 0 30px 0 30px;
+    }
+    
+    .container-footer{
+        margin: 0 100px 0 100px;
+    }
+
+    header .carousel .carousel-content h3 {
+        margin-top: 30px;
+    }
+
+    .navbar-brand img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .about-us .about-us-right :nth-child(1) {
+        width: 345px;
+        height: 380px;
+    }
+
+    .about-us .about-us-right :nth-child(2) {
+        width: 223.29px;
+        height: 223.29px;
+    }
+
+    .about-us .about-us-right :nth-child(3) {
+        width: 130.5px;
+        height: 128.5px;
+    }
+
+    .about-us .about-us-right :nth-child(4){
+        width: 230.5px;
+        height: 263px;
+    }
+
+    .our-story .our-story-right :nth-child(1) {
+        width: 387px;
+        height: 309px;
+    }
+
+    .our-story .our-story-right :nth-child(2) {
+        width: 197px;
+        height: 158px;
+    }
+
+    .our-story .our-story-right :nth-child(3) {
+        width: 197px;
+        height: 157px;
+    }
+
+    .our-menu {
+        margin-top: 70px;
+    }
+    .our-menu .menu .meal-img{
+        width: 100%;
+    }
+
+    .events .row img {
+        height: 350px;
+    }
+
+    footer.footer .subscribe {
+        width: 100%;
+    }
+}
+
+/* 
+    Tablet styles
+*/
+@media (max-width: 991px){
+    :root{
+        --font-72: 70px;
+        --font-61: 60px;
+        --font-58: 55px;
+        --font-48: 45px;
+        --font-44: 40px;
+        --font-38: 35px;
+        --font-31: 30px;
+        --font-27: 25px;
+        --font-25: 22px;
+        --font-22: 20px;
+    }
+    .navbar-toggler{
+        margin-top: 30px;
+    }
+    .mobile-brand{
+        margin-top: 30px;
+    }
+    .mobile-brand img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .navbar .navbar-nav .nav-item{
+        margin-right: 0px;
+    }
+
+    header .carousel .carousel-content h3 {
+        margin-top: 70px;
+    }
+
+    .about-us .vector-img{
+        /* rotate 90% */
+        transform: rotate(0deg);
+    }
+
+    .about-us .about-us-right {
+        width: 100%;
+        margin-top: 0;
+        position: relative;
+    }
+
+    .about-us .about-us-right :nth-child(1) {
+        width: 65.37%;
+        height: calc(380px * 1);
+    }
+
+    .about-us .about-us-right :nth-child(2) {
+        width: 51.2%;
+        height: calc(223.29px * 1.2);
+    }
+
+    .about-us .about-us-right :nth-child(3) {
+        width: 130.5px;
+        height: 128.5px;
+    }
+
+    .about-us .about-us-right :nth-child(4){
+        width: 230.5px;
+        height: 263px;
+    }
+
+    .our-story {
+        background-image: none;
+    }
+
+    .our-story .our-story-left {
+        text-align: center;
+    }
+
+    .our-story .our-story-right :nth-child(1) {
+        width: 87.33%;
+        height: calc(309px * 1.5);
+        top: 0px;
+    }
+    .our-story .our-story-right :nth-child(2) {
+        width: calc(197px * 1.5);
+        height: calc(158px * 1.5);
+    }
+    .our-story .our-story-right :nth-child(3) {
+        width: calc(197px * 1.5);
+        height: calc(157px * 1.5);
+    }
+    .our-story .our-story-right {
+        margin-top: 0;
+        min-height: 600px;
+    }
+
+    .our-menu .menu {
+        background-image: none;
+    }
+
+    footer.footer ul.footer-info{
+        text-align: center;
+        padding-left: 200px;
+        margin-top: 37px
+        
+    }
+    .our-menu .menu .meal-img span.price {
+        position: absolute;
+        background: var(--color-secondary);
+        width: 117px;
+        height: 117px;
+        border-radius: 50%;
+        left: -40px;
+        top: -69px;
+    }
+
+    .ingredients .ing-sec{
+        margin-top: 0px;
+    }
+    .ingredients .ing-sec .img-sec{
+        margin-top: 150px;
+    }
+    .ingredients .ing-sec .text-sec{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .map-section2 {
+        width: 100%;
+        height: 800px;
+        overflow: hidden;
+        border-end-end-radius: 27px;
+        border-end-start-radius: 27px;
+        border-start-end-radius: 0;
+        margin-bottom: 70px;
+    }
+
+    .map .map-form {
+        background: #2C2C2C;
+        border-radius: 21px 21px 0px 0px;
+        text-align: left;
+    }
+}
+
+/* 
+    Tablet styles
+*/
+@media (max-width: 768px){
+    :root{
+        --font-72: 60px;
+        --font-61: 50px;
+        --font-58: 45px;
+        --font-48: 40px;
+        --font-44: 35px;
+        --font-38: 30px;
+        --font-31: 25px;
+        --font-27: 20px;
+        --font-25: 18px;
+        --font-22: 16px;
+    }
+
+    .about-us .about-us-right :nth-child(1) {
+        height: calc(380px * 1);
+    }
+
+    .about-us .about-us-right :nth-child(2) {
+        height: calc(223.29px * 1.2);
+    }
+
+    .about-us .about-us-right :nth-child(3) {
+        width: 130.5px;
+        height: 128.5px;
+    }
+
+    .about-us .about-us-right :nth-child(4){
+        width: 230.5px;
+        height: 263px;
+    }
+
+    .our-story .our-story-right :nth-child(1) {
+        height: calc(309px * 1.5);
+    }
+    .our-story .our-story-right :nth-child(2) {
+        width: calc(197px * 1.5);
+        height: calc(158px * 1.5);
+    }
+    .our-story .our-story-right :nth-child(3) {
+        width: calc(197px * 1.5);
+        height: calc(157px * 1.5);
+    }
+    .our-menu .menu .nav li {
+        margin-right: 50px;
+    }
+}

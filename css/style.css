@@ -1,0 +1,1290 @@
+/****************************************************************
+                        main import 
+****************************************************************/
+/* import main.css */
+@import url("main.css");
+
+/* define Dancing Script font */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+/* define Recursive font */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Recursive:wght@700&display=swap');
+
+
+/****************************************************************
+                        main variable 
+****************************************************************/
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    text-align: unset;
+}
+:root{
+    /* font size */
+    --font-72: 72px;
+    --font-61: 61px;
+    --font-58: 58px;
+    --font-48: 48px;
+    --font-44: 44px;
+    --font-38: 38px;
+    --font-31: 31px;
+    --font-27: 27px;
+    --font-25: 25px;
+    --font-22: 22px;
+    --font-20: 20px;
+
+    /* colors */
+    --color-black: #000000;
+    --color-white: #ffffff;
+    --color-main: #F9A244;
+    --color-orange: #F48000;
+    --color-secondary: #AF2234;
+}
+
+/****************************************************************
+                        Home Page 
+****************************************************************/
+
+/* Header Section */
+header{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*  Top Bar social media and language with email  */
+
+.top-bar{
+    background-color: transparent;
+    padding: 10px 0;
+    font-size: var(--font-20);
+    color: var(--color-white);
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.container-top{
+    margin: 0 190px 0 203px;
+}
+.container-about{
+    margin: 0 176px 0 154px;
+}
+.container-story{
+    margin: 0 130px 0 130px;
+}
+
+.container-footer{
+    margin: 0 156px 0 156px;
+}
+
+.top-bar a{
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+.top-bar .top-bar-left{
+    text-align: left;
+}
+
+.top-bar .top-bar-right{
+    text-align: right;
+}
+
+.top-bar .top-bar-right .language,
+.top-bar .top-bar-right .email{
+    display: inline-block;
+}
+
+/* Navbar */
+.navbar .navbar-nav .nav-item .nav-link{
+    color: var(--color-white);
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--font-20);
+    line-height: 30px;
+    text-decoration: none;
+    padding: 0;
+}
+.navbar-dark .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+}
+/* active */
+.navbar .navbar-nav .nav-item.active .nav-link{
+    color: var(--color-secondary);
+    border-bottom: 2px solid var(--color-secondary);
+    padding-bottom: 6px;
+}
+/* hr top */
+header .top-hr{
+    padding: 0;
+    margin: 0;
+    margin-top: 27.39px;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.5);
+}
+
+/* Header carousel  */
+header .carousel{
+    font-family: 'Dancing Script', cursive;
+    font-style: normal;
+}
+
+header .carousel .carousel-content {
+    text-align: center;
+}
+
+header .carousel .carousel-content h3{
+    margin-top: 167px;
+    font-weight: 400;
+    font-size: var(--font-61);
+    line-height: 73px;
+    color: var(--color-main);
+}
+
+header .carousel .carousel-content h4{
+    font-weight: 700;
+    font-size: var(--font-72);
+    line-height: 73px;
+    color: var(--color-white);
+}
+
+header .carousel .carousel-content p{
+    font-weight: 400;
+    font-size: var(--font-48);
+    line-height: 58px;
+    color: var(--color-secondary);
+}
+header .carousel .carousel-content a{
+    font-family: 'Recursive';
+    z-index: 999;
+    font-weight: 100;
+    font-size: var(--font-22);
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 64px;
+    padding: 19px 44px 20px 45px;
+    margin: 0;
+    text-decoration: none;
+}
+
+header .carousel .carousel-indicators li{
+    width: 14px;
+    height: 14px;
+    background-color: #FFFFFF;
+    opacity: 0.5;
+    border-radius: 50%;
+    border:none;
+}
+
+header .carousel .carousel-indicators li.active{
+    width: 39px;
+    border-radius: 51px;
+    background-color: var(--color-secondary);
+    opacity: 1;
+}
+
+.point{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: var(--color-main);
+    border-radius: 50%;
+}
+
+/* About US Section */
+.about-us{
+    font-style: normal;
+    text-align: center;
+}
+.about-us .about-sec{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.07);
+    border-radius: 9px;
+    margin-top: 40px;
+}
+
+.about-us .about-sec .icon{
+    color: var(--color-orange);
+    font-size: var(--font-31);
+}
+
+.about-us .about-sec .time{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--font-20);
+    line-height: 20px;
+    color: var(--color-black);
+}
+
+.about-us .about-sec .time-title{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 17px;
+    line-height: 20px;
+    color: var(--color-black);
+}
+
+.about-us .about-sec .title{
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--font-38);
+    line-height: 41px;
+    color: var(--color-orange);
+}
+
+.about-us .about-sec .text{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    
+    color: var(--color-black);
+}
+.about-us .about-us-left h2{
+    font-family: 'Dancing Script';
+    font-weight: 700;
+    font-size: var(--font-38);
+    line-height: 46px;
+    color: var(--color-main);
+}
+.about-us .about-us-left h3{
+    font-family: 'Recursive';
+    font-weight: 700;
+    font-size: var(--font-58);
+    line-height: 70px;
+    color: var(--color-black);
+}
+.about-us .about-us-left p{
+    font-family: 'Recursive';
+    font-weight: 400;
+    font-size: var(--font-31);
+    line-height: 37px;
+    color: var(--color-black);
+    opacity: 0.66;
+}
+
+.about-us .about-us-left a{
+    font-family: 'Recursive';
+    font-weight: 300;
+    font-size: var(--font-22);
+    line-height: 26px;
+    color: #FFFFFF;
+    padding: 13px 31px;
+    background-color: var(--color-secondary);
+    border-radius: 78px;
+    text-decoration: none;
+}
+
+.about-us .vector-img{
+    /* rotate 90% */
+    transform: rotate(270deg);
+}
+/* 
+    About Us Right 
+    1- overlapping img:nth-child(1) and img:nth-child(2)
+*/
+.about-us .about-us-right{
+    margin-top: 126px;
+    position: relative;
+}
+.about-us .about-us-right :nth-child(1){
+    width: 475px;
+    height: 510px;
+    position: absolute;
+    z-index: 1;
+}
+.about-us .about-us-right :nth-child(2){
+    width: 353.29px;
+    height: 353.29px;
+    position: absolute;
+    z-index: 2;
+
+}
+.about-us .about-us-right :nth-child(3){
+    width: 260.5px;
+    height: 248.5px;  
+    position: absolute;
+    z-index: 3;
+    border-bottom: 4px dashed var(--color-secondary);
+    border-left: 4px dashed var(--color-secondary);
+    border-bottom-left-radius: 30px;
+}
+.about-us .about-us-right :nth-child(4){
+    width: 360.5px;
+    height: 393px;          
+    position: absolute;
+    z-index: 3;
+    border-top: 4px dashed var(--color-secondary);
+    border-right: 4px dashed var(--color-secondary);
+    border-top-right-radius: 30px;
+}
+
+/* Our story */
+.our-story{
+    margin-top: 177px;
+    background-color: rgba(0, 0, 0, 0.82);
+    font-style: normal;
+    text-align: left;
+    background-image: url('../images/Group-2 1.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    /* background image opacity */
+    
+    
+}
+.our-story .our-story-left h2{
+    font-family: 'Dancing Script';
+    font-weight: 700;
+    font-size: var(--font-44);
+    line-height: 53px;
+}
+.our-story .our-story-left h2 :nth-child(1){
+    color: var(--color-main);
+    border-bottom: 3px dashed var(--color-secondary);
+    padding-bottom: 8px;
+}
+.our-story .our-story-left h2 :nth-child(2){
+    color: var(--color-secondary);
+    border-bottom: 4px solid var(--color-main);
+    margin-left: 5px;
+    padding-bottom: 8px;
+}
+
+.our-story .our-story-left p{
+    font-family: 'Recursive';
+    font-weight: 400;
+    font-size: var(--font-31);
+    line-height: 37px;
+    color: var(--color-white);
+    opacity: 0.66;
+    margin-top: 30px;
+}
+
+.our-story .our-story-left a{
+    font-family: 'Recursive';
+    font-weight: 300;
+    font-size: var(--font-22);
+    line-height: 26px;
+    color: #FFFFFF;
+    padding: 13px 31px;
+    background-color: var(--color-secondary);
+    border-radius: 78px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.our-story .our-story-right{
+    margin-top: 126px;
+    position: relative;
+}
+.our-story .our-story-right :nth-child(1){
+    width: 537px;
+    height: 459px;
+    position: absolute;
+    top: 0;
+    right: 100px;
+    z-index: 1;
+    border-radius: 22px;
+    z-index: 2;
+}
+
+.our-story .our-story-right :nth-child(2){
+    width: 347px;
+    height: 307px; 
+    position: absolute;
+    z-index: 3;
+    border-bottom: 7px dashed var(--color-main);
+    border-left: 7px dashed var(--color-main);
+    border-bottom-left-radius: 22px;
+}
+
+.our-story .our-story-right :nth-child(3){
+    width: 347px;
+    height: 307px; 
+    position: absolute;
+    top: -16px;
+    right: 84px;
+    z-index: 3;
+    border-top: 7px solid var(--color-secondary);
+    border-right: 7px solid var(--color-secondary);
+    border-top-right-radius: 22px;
+}
+
+.our-story .our-story-right :nth-child(4){
+    position: absolute;
+    z-index: 3;
+    font-family: 'Dancing Script';
+    font-weight: 400;
+    font-size: var(--font-25);
+    line-height: 32px;
+    color: var(--color-white);
+}
+
+/* our-menu */
+.our-menu{
+    margin-top:177px;
+    text-align: center;
+}
+.our-menu .title{
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--font-72);
+    line-height: 88px;
+    color: var(--color-main);
+}
+
+.our-menu .description{
+    font-family: 'Poppins';
+    width: 50%;
+    margin: 48px auto 0 auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--font-25);
+    line-height: 38px;
+    text-align: center;
+    color: var(--color-black);
+    opacity: 0.8;
+}
+
+.our-menu .menu{
+    color: var(--color-white);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+.our-menu .menu .nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-menu .menu .nav li{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--font-25);
+    line-height: 38px;
+    text-align: center;
+    color: var(--color-white);
+    margin-right: 95px;
+    margin-top: 48px;
+}
+
+.our-menu .menu .nav li.active{
+    border-bottom: 2px solid var(--color-secondary);
+}
+
+.our-menu .menu .meal-img{
+    position: relative;
+    width: 327px;
+    height: 307.77px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 32px;
+}
+
+.our-menu .menu .meal-img img{
+    border-radius: 32px;
+}
+
+.our-menu .menu .meal-img span.price{
+    position: absolute;
+    background: var(--color-secondary);
+    width: 117px;
+    height: 117px;
+    border-radius: 50%;
+    left: -40px;
+    top: -69px;
+}
+
+.our-menu .menu .meal-img span.price i{
+    position: absolute;
+    bottom: 15px;
+    font-family: 'Inter';
+}
+
+.our-menu .menu h3{
+    font-family: 'Avenir Arabic';
+    font-style: normal;
+    font-weight: 800;
+    font-size: var(--font-25);
+    line-height: 39px;
+    text-align: center;
+    color: var(--color-white);
+    margin-top: 38px;
+}
+.our-menu .menu .ingredients{
+    font-family: 'Avenir Arabic';
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--font-25);
+    line-height: 39px;
+    text-align: center;
+    color: var(--color-main);
+    margin-top: 15px;
+}
+
+.our-menu .menu a{
+    background: var(--color-secondary);
+    border-radius: 78px;
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--font-22);
+    line-height: 26px;
+    text-align: center;
+    color: var(--color-white);
+    padding: 24px 40px;
+    text-decoration: none;
+}
+
+/* Events Section */
+.events{
+    margin: 157px 0 208px;
+    text-align: center;
+}
+
+.events .hint{
+    font-family: 'Great Vibes';
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--font-72);
+    line-height: 88px;
+    color: var(--color-main);
+}
+
+.events .title{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--font-58);
+    line-height: 70px;
+    color: var(--color-black);
+}
+
+.events .row{
+    text-align: left;
+    width: 90%;
+}
+
+.events .row .col-4{
+    margin-top: 125px;
+}
+
+.events .row p{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--font-27);
+    line-height: 32px;
+    color: var(--color-black);
+    width: 95%;
+}
+
+.events .date{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--font-22);
+    line-height: 29px;
+    color: var(--color-main) !important;
+}
+
+.events h4{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--font-38);
+    line-height: 47px;
+    color: var(--color-black);
+}
+
+.events .row img{
+    border-radius: 26px;
+    width: 100%;
+    height: 430px;
+}
+
+/* Map */
+.map .map-form{
+    background: #2C2C2C;
+    border-radius: 21px 0px 0px 21px;
+    text-align: left;
+}
+
+.map .map-form .title{
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--font-31);
+    line-height: 41px;
+    color: var(--color-main);
+}
+
+.map .map-form label{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--font-20);
+    line-height: 24px;
+    color: var(--color-white);
+}
+.map .map-form input,
+.map .map-form textarea{
+    background: #2C2C2C;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    color: var(--color-white);
+}
+
+.map .map-form input[type="submit"]{
+    background: var(--color-secondary);
+    border-radius: 10px;
+    padding: 13px 67px;
+    border-radius: 1px solid var(--color-secondary);
+}
+
+/* Footer */
+footer.footer{
+    background: #2C2C2C;
+    text-align: center;
+    padding-bottom: 47px;
+    padding-top: 140px;
+}
+footer.footer h3{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 600;
+    font-size: var(--font-22);
+    line-height: 28px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+footer.footer p{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--font-22);
+    line-height: 28px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+footer.footer ul{
+    list-style: none;
+}
+
+footer.footer ul.footer-info{
+    margin-top: 57px;
+}
+
+footer.footer ul.footer-info li a,
+footer.footer ul.footer-info li 
+{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--font-20);
+    line-height: 30px;
+    color: var(--color-white);
+    text-align: left;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+footer.footer ul.footer-social li 
+{
+    background: #252525;
+    border-radius: 6px;
+    color: var(--color-white);
+    display: inline-block;
+}
+footer.footer ul.footer-social li a
+{
+    color: var(--color-white);
+    padding: 9px;
+    text-decoration: none;
+}
+
+footer.footer .subscribe{
+    background: #252525;
+    border-radius: 3px;
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 57px;
+}
+
+footer.footer .subscribe input{
+    background-color: transparent;
+    border-color: transparent;
+    padding: 19px 0;
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--font-20);
+    line-height: var(--font-22);
+    text-align: center;
+    color: var(--color-white);
+}
+
+footer.footer .subscribe input:focus{
+    outline: none !important;
+}
+
+footer.footer .subscribe input[type="text"]::placeholder{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--font-20);
+    line-height: var(--font-22);
+    text-align: center;
+    color: var(--color-white);
+}
+
+footer.footer .subscribe input[type="submit"]{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: var(--font-22);
+    text-align: center;
+    color: var(--color-main);
+}
+
+footer hr{
+    border-bottom: 1px solid var(--color-white);
+}
+
+footer .copy-right{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--font-20);
+    line-height: 30px;
+    color: var(--color-white);
+}
+
+/* Menu Page */
+.page-info-header{
+    text-align: center;
+    padding: 50px 0 ;
+}
+
+.page-info-header h1{
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--font-61);
+    line-height: 73px;
+    color: var(--color-main);
+}
+.page-info-header p{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--font-31);
+    line-height: 37px;
+    text-align: center;
+    color: var(--color-white);
+}
+.page-info-header .date{
+    font-size: 17px;
+    color: #FFFFFF;
+}
+
+.page-info-header i{
+    padding-right: 5px;
+}
+
+.our-menu.menu-page .menu .nav li {
+    color: var(--color-black);
+}
+
+.our-menu.menu-page .menu h3 {
+    color: var(--color-black);
+}
+.our-menu.menu-page .title {
+    font-size: var(--font-44);
+}
+
+.our-menu.menu-page .brief-title {
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 600;
+    font-size: var(--font-58);
+    line-height: 70px;
+    color: var(--color-black);
+}
+
+.our-menu.menu-page .menu .ingredients {
+    color: var(--color-orange);
+}
+
+/* 
+    our Gallery 
+*/
+.gallery{
+    text-align: center;
+}
+
+.gallery .title{
+    font-family: 'Great Vibes';
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--font-72);
+    line-height: 88px;
+    color: var(--color-orange);
+}
+
+.gallery .icon{
+    transform: rotate(270deg);
+}
+
+.gallery .text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--font-25);
+    line-height: 38px;
+    color: var(--color-black);
+    opacity: 0.8;
+}
+
+.gallery #lightgallery{
+    margin: 70px 0 0;
+    position: relative;
+    width: 100%;
+}
+.gallery #lightgallery .gallery-overlay{
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    background: #262222;
+    opacity: .39;
+    width: 100%;
+}
+
+/* 
+    ingredients Section
+*/
+.ingredients{
+    text-align: center;
+}
+
+.ingredients .title{
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--font-72);
+    line-height: 88px;
+    color: var(--color-orange);
+    margin-top: 50px;
+}
+
+.ingredients .text{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--font-25);
+    line-height: 30px;
+    color: var(--color-black);
+    opacity: 0.8;
+    margin-top: 20px;
+}
+
+.ingredients .ing-sec{
+    margin-top: 150px;
+}
+
+.ingredients .ing-sec .style{
+    display: inline-flex;
+    width: 100%;
+    position: relative;
+}
+
+.ingredients .ing-sec .style img{
+    border-radius: 16px;
+    position: absolute;
+}
+
+.ingredients .ing-sec .style-1 img,
+.ingredients .ing-sec .style-4 img
+{
+    width: 45%;
+}
+
+.ingredients .ing-sec .style-2 .first-img,
+.ingredients .ing-sec .style-3 .first-img
+{
+    width: 58%;
+}
+.ingredients .ing-sec .style-2 .second-img,
+.ingredients .ing-sec .style-2 .dottd-squre,
+.ingredients .ing-sec .style-3 .second-img,
+.ingredients .ing-sec .style-3 .dottd-squre
+{
+    width: 42%;
+}
+
+.ingredients .ing-sec{
+    text-align: left;
+    padding-right: 15px;
+}
+
+.ingredients .ing-sec .title{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--font-61);
+    line-height: 58px;
+    color: #AF2234;
+}
+
+.ingredients .ing-sec ul.list{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--font-20);
+    line-height: 24px;
+    color: var(--color-black);
+    opacity: 0.8;
+    list-style-image: url('../images/list-style.png');
+}
+
+.ingredients .ing-sec ul.list li{
+    margin-top: 20px;
+}
+
+/* Blogs Page */
+
+.pagations{
+    margin: 50px 0 0;
+}
+.pagations a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--font-20);
+    line-height: 18px;
+    color: var(--color-black);
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.pagations a.active{
+    font-weight: bold;
+    color: var(--color-secondary);
+}
+
+/* Post Page */
+.post .img{
+    width: 100%;
+    border-radius: 20px;
+    margin: 50px 0;
+}
+
+.post .title{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--font-48);
+    line-height: 60px;
+    color: var(--color-black);
+    margin: 20px 0;
+}
+
+.post .text{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-size: var(--font-31);
+    line-height: 36px;
+    color: var(--color-black);
+    margin: 15px 0;
+}
+
+.post iframe{
+    width: 100%;
+    height: 400px;
+    border-radius: 20px;
+    margin: 50px 0;
+}
+
+.post .tags{
+    margin: 10px 0;
+}
+
+.post .tags .title{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 600;
+    font-size: var(--font-27);
+    line-height: 32px;
+    color: var(--color-black);
+    margin-right: 15px;
+}
+
+.post .tags .tag{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--font-20);
+    line-height: 24px;
+    color: var(--color-black);
+    border: 0.5px solid rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.post .related-posts{
+    margin: 50px 0;
+}
+
+.post .related-posts .title{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--font-31);
+    line-height: 36px;
+    color: var(--color-black);
+}
+
+.post .related-posts .related-img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.post .related-posts .about{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--font-31);
+    line-height: 35px;
+    color: var(--color-black);
+    padding: 10px 0 0;
+}
+
+/* Surevy Page */
+.survey .header {
+    display: flex;
+    align-items: center;
+}
+
+.survey .header .logo{
+    margin-right: 20px;
+}
+
+.survey .header .title{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 600;
+    font-size: var(--font-31);
+    line-height: 37px;
+    text-align: center;
+    color: var(--color-black);
+}
+
+.survey form .question p{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--font-22);
+    line-height: 26px;
+    color: var(--color-black);
+    margin: 0;
+}
+
+.survey form .question .question-body{
+    font-family: 'poppins';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.survey form .question .number,
+.survey form .question label.main-label
+{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 600;
+    font-size: var(--font-31);
+    line-height: 37px;
+    color: var(--color-secondary);
+}
+
+.survey form .question label.main-label span{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--font-20);
+    line-height: 24px;
+    color: var(--color-black);
+    opacity: 0.8;
+}
+
+.survey form .question .items{
+    display: flex;
+}
+
+.survey form .question .radio-1{
+    width: 80px;
+    height: 80px;
+    border: 2px solid #EBE7E7;
+    background: #F1F1F1;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+}
+.survey form .question .radio-1:last-child{
+    margin-right: 0;
+}
+
+.survey form .question .radio-2{
+    width: 80px;
+    height: 80px;
+    background: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-right: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.survey form .question .radio-2:last-child{
+    border-right: 2px solid #D9D9D9;
+}
+
+.survey form .question .custom-radio span{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 300;
+    font-size: var(--font-25);
+    line-height: 36px;
+}
+
+.survey form .question .radio-1{
+    color: #C2C2C2;
+}
+
+.survey form .question .radio-2{
+    color: var(--color-black);
+}
+
+.survey form .question .radio-1 img{
+    width: 16.5px;
+    height: 3.86px;
+}
+
+
+.survey form .question .custom-radio input[type=radio]{
+    display: none;
+}
+
+.survey form .question .bad{
+    border-radius: 6px;
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--font-20);
+    line-height: 20px;
+    padding: 3px 6px;
+}
+
+.survey form .question .bad:first-child{
+    background: #FF8090;
+    color: #AF2234;
+    margin-left: 15px;
+    
+}
+
+.survey form .question .bad:last-child{
+    background: #FFC98D;
+    color: #F48000;
+    margin-right: 15px;
+}
+
+.survey form .question textarea{
+    background: #FFFFFF;
+    border: 2px solid #D9D9D9;
+    border-radius: 11px;
+    width: 100%;
+    padding: 30px;
+}
+
+.survey form .question input[type=checkbox]{
+    width: 25px;
+    height: 25px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.survey form .question .yes{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--font-27);
+    line-height: 32px;
+    color: var(--color-black);
+}
+
+.survey form input[type=submit]{
+    background: #AF2234;
+    border-radius: 10px;
+    border-color: #AF2234 !important;
+        font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--font-25);
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 16px 46px;
+}
+
+.map-section {
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    border-radius: 27px;
+    margin-bottom: 70px;
+}
+.map-section2 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-end-end-radius: 27px;
+    border-start-end-radius: 27px;
+    margin-bottom: 70px;
+}
+
+
+
+
+
+
+
+
